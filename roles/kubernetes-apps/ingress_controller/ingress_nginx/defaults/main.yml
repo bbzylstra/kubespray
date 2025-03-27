@@ -24,5 +24,5 @@ ingress_nginx_default: false
 ingress_nginx_webhook_enabled: false
 ingress_nginx_webhook_job_ttl: 1800
 ingress_nginx_opentelemetry_enabled: false
-
+ingress_nginx_externalTrafficPolicy: Cluster
 ingress_nginx_probe_initial_delay_seconds: 10
